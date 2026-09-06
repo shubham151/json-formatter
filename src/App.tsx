@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { AlertCircle, FileJson, Copy, Check } from 'lucide-react';
 
 const JsonNode = ({ node, nodeKey = '', isLast = true, depth = 0 }: { node: any, nodeKey?: string, isLast?: boolean, depth?: number }) => {
